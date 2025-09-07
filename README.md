@@ -13,6 +13,7 @@ A memory-based game built with **HTML, CSS, and JavaScript**.
 4. Game ends if the sequence is wrong.
 
 ## Demo
+Play it here 👉 [Simon Game](https://prathammanjul.github.io/Simon-Game/)
 
 
 ## Skills Demonstrated
