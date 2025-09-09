@@ -1,8 +1,8 @@
-*{
+* {
     text-align: center;
 }
 
-.btn{
+.btn {
     height: 180px;
     width: 180px;
     border: 8px solid black;
@@ -10,53 +10,58 @@
     margin: 2rem;
 }
 
-.btn-container{
+.btn-container {
     display: flex;
     justify-content: center;
-   
+
 
 }
 
-.red{
+.red {
     background-color: #d95980;
-    
+
 }
-.yellow{
+
+.yellow {
     background-color: #f99b45;
 
 }
-.green{
+
+.green {
     background-color: #63aac0;
 
 }
-.purple{
+
+.purple {
     background-color: #819ff9;
 
 }
 
-.flash{
+.flash {
     background-color: white;
 }
-.userflash{
+
+.userflash {
     background-color: green;
 }
-  .start-btn button{
-     width: 150px;
-        height: 50px;
-        border-radius: 20px;
-        background-color: rgb(131, 232, 195);
 
-        font-size: 1rem;
-        font-weight: 600;
+.start-btn button {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(131, 232, 195);
+    font-size: 1rem;
+    font-weight: 600;
 
 
-    }
+}
 
 /* Responsive styles for ≤576px */
 @media (max-width: 576px) {
     h1 {
         font-size: 1.5rem;
     }
+
     h2 {
         font-size: 1rem;
     }
@@ -67,39 +72,27 @@
         margin: 1rem;
         font-size: 1.2rem;
         border: 4px solid black;
-
-
     }
 
     .btn-container {
 
         flex-direction: row;
         flex-wrap: wrap;
-
-
     }
 
-    
-
-    .line-one, .line-two {
+    .line-one,
+    .line-two {
         display: flex;
         justify-content: center;
         width: 100%;
     }
 
-     .start-btn button{
-     width: 110px;
+    .start-btn button {
+        width: 110px;
         height: 35px;
         border-radius: 20px;
         background-color: rgb(131, 232, 195);
         font-size: 12px;
-font-weight: 600;
-
-
-
-
+        font-weight: 600;
     }
-  
 }
-
-
