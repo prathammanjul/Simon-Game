@@ -11,13 +11,25 @@ let h2 = document.querySelector("h2")
 document.addEventListener("keypress" , function(){
 
     if(started == false){
-        console.log("game started")
+        // console.log("game started")
         started = true;
 
         levelUp();
     }
 
 })
+
+
+
+document.querySelector(".start-btn").addEventListener("click", function () {
+    if (started == false) {
+
+        started = true;
+        levelUp();
+    }
+});
+
+
 
 function gameFlash(btn){
     btn.classList.add("flash");
